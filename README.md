@@ -27,7 +27,7 @@ Open Visual Studio and build the solution.
 mkdir build
 cd build
 # May need to configure this line.
-export CC=/usr/lib/llvm/13/bin/clang CXX=/usr/lib/llvm/13/bin/clang++
+export CC=/usr/lib/llvm/18/bin/clang CXX=/usr/lib/llvm/18/bin/clang++
 cmake .. -G Ninja -DCMAKE_C_FLAGS=-m32 -DCMAKE_CXX_FLAGS=-m32 -DCMAKE_BUILD_TYPE=Debug
 cmake --build . --config Debug
 ```
