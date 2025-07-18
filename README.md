@@ -1,4 +1,4 @@
-# GameMode (opem.mp)
+# GameMode (open.mp)
 Template gamemode c++ bolt using open.mp-gdk and open.mp-sdk
 
 ## Usage
